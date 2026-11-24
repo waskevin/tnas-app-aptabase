@@ -1,0 +1,6 @@
+services:
+  aptabase:
+    image: alaxricard/aptabase:2.7.0
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
